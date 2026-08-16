@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "two-sided-matchmaking-lab"
+version = "0.2.0"
+description = "Monte Carlo laboratory inspired by Shi (2023) for two-sided matchmaking protocols"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+]
+
+[tool.setuptools.packages.find]
+include = ["matchmaking_lab*"]
