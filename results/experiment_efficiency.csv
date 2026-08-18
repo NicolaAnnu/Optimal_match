@@ -1,56 +1,103 @@
 market_key,market,scenario_id,scenario,is_baseline,sensitivity_value,n,strategy,efficiency_credit,eligible_replications,efficient_share
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,25,Customers search,8.0,10,0.8
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,25,Providers search,2.0,10,0.2
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,50,Customers search,10.0,10,1.0
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,100,Customers search,10.0,10,1.0
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,25,Customers search,10.0,10,1.0
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,50,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,50,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,100,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,100,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,25,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,25,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,50,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,50,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,100,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,100,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,25,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,25,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,50,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,50,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,100,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,100,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,25,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,25,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,50,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,50,Customers search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,100,Both sides search,5.0,10,0.5
-airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,100,Customers search,5.0,10,0.5
-care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,25,Both sides search,10.0,10,1.0
-care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,50,Both sides search,10.0,10,1.0
-care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,100,Both sides search,10.0,10,1.0
-care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,25,Both sides search,10.0,10,1.0
-care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,50,Both sides search,10.0,10,1.0
-care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,100,Both sides search,8.5,10,0.85
-care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,100,Customers search,1.5,10,0.15
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,25,Both sides search,8.0,10,0.8
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,25,Providers search,2.0,10,0.2
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,50,Both sides search,2.5,10,0.25
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,50,Customers search,6.0,10,0.6
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,50,Providers search,1.5,10,0.15
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,100,Customers search,6.5,10,0.65
-care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,100,Providers search,3.5,10,0.35
-care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,25,Customers search,7.0,10,0.7
-care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,25,Providers search,3.0,10,0.3
-care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,50,Customers search,3.0,10,0.3
-care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,50,Providers search,7.0,10,0.7
-care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,100,Customers search,6.0,10,0.6
-care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,100,Providers search,4.0,10,0.4
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,25,Customers search,8.0,10,0.8
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,25,Providers search,2.0,10,0.2
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,50,Both sides search,3.0,10,0.3
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,50,Customers search,3.0,10,0.3
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,50,Providers search,4.0,10,0.4
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,100,Both sides search,2.0,10,0.2
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,100,Customers search,2.0,10,0.2
-care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,100,Providers search,6.0,10,0.6
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,25,Both sides search,10.0,100,0.1
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,25,Customers search,65.0,100,0.65
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,25,Providers search,25.0,100,0.25
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,50,Customers search,98.0,100,0.98
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,50,Providers search,2.0,100,0.02
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,100,Customers search,100.0,100,1.0
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,150,Customers search,100.0,100,1.0
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,200,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.20,"d_I=0.10, d_J=0.20",False,0.2,200,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,25,Customers search,100.0,100,1.0
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,50,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,50,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,100,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,100,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,150,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,150,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,200,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.40,"d_I=0.10, d_J=0.40",False,0.4,200,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,25,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,25,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,50,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,50,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,100,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,100,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,150,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,150,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,200,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.60,"d_I=0.10, d_J=0.60",False,0.6,200,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,25,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,25,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,50,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,50,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,100,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,100,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,150,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,150,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,200,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_0.80,"d_I=0.10, d_J=0.80",True,0.8,200,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,25,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,25,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,50,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,50,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,100,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,100,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,150,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,150,Customers search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,200,Both sides search,50.0,100,0.5
+airbnb,Airbnb / short-term rentals,airbnb_dj_1.00,"d_I=0.10, d_J=1.00",False,1.0,200,Customers search,50.0,100,0.5
+care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,25,Both sides search,100.0,100,1.0
+care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,50,Both sides search,100.0,100,1.0
+care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,100,Both sides search,100.0,100,1.0
+care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,150,Both sides search,100.0,100,1.0
+care,Care.com / childcare,care_d_0.02,d_I=d_J=0.02,True,0.02,200,Both sides search,100.0,100,1.0
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,25,Both sides search,100.0,100,1.0
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,50,Both sides search,98.0,100,0.98
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,50,Providers search,2.0,100,0.02
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,100,Both sides search,79.0,100,0.79
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,100,Customers search,13.0,100,0.13
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,100,Providers search,8.0,100,0.08
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,150,Both sides search,5.0,100,0.05
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,150,Customers search,60.0,100,0.6
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,150,Providers search,35.0,100,0.35
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,200,Customers search,60.0,100,0.6
+care,Care.com / childcare,care_d_0.05,d_I=d_J=0.05,False,0.05,200,Providers search,40.0,100,0.4
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,25,Both sides search,89.0,100,0.89
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,25,Customers search,3.0,100,0.03
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,25,Providers search,8.0,100,0.08
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,50,Both sides search,37.5,100,0.375
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,50,Customers search,37.0,100,0.37
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,50,Providers search,25.5,100,0.255
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,100,Customers search,55.0,100,0.55
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,100,Providers search,45.0,100,0.45
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,150,Customers search,52.5,100,0.525
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,150,Providers search,47.5,100,0.475
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,200,Customers search,62.0,100,0.62
+care,Care.com / childcare,care_d_0.10,d_I=d_J=0.10,False,0.1,200,Providers search,38.0,100,0.38
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,25,Both sides search,2.0,100,0.02
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,25,Customers search,49.0,100,0.49
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,25,Providers search,49.0,100,0.49
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,50,Customers search,53.0,100,0.53
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,50,Providers search,47.0,100,0.47
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,100,Customers search,52.5,100,0.525
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,100,Providers search,47.5,100,0.475
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,150,Customers search,49.0,100,0.49
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,150,Providers search,51.0,100,0.51
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,200,Both sides search,24.333333333333332,100,0.24333333333333332
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,200,Customers search,24.333333333333332,100,0.24333333333333332
+care,Care.com / childcare,care_d_0.20,d_I=d_J=0.20,False,0.2,200,Providers search,51.333333333333336,100,0.5133333333333333
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,25,Customers search,55.0,100,0.55
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,25,Providers search,45.0,100,0.45
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,50,Both sides search,26.0,100,0.26
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,50,Customers search,26.0,100,0.26
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,50,Providers search,48.0,100,0.48
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,100,Both sides search,25.666666666666668,100,0.25666666666666665
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,100,Customers search,25.666666666666668,100,0.25666666666666665
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,100,Providers search,48.666666666666664,100,0.48666666666666664
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,150,Both sides search,24.0,100,0.24
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,150,Customers search,24.0,100,0.24
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,150,Providers search,52.0,100,0.52
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,200,Both sides search,25.666666666666668,100,0.25666666666666665
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,200,Customers search,25.666666666666668,100,0.25666666666666665
+care,Care.com / childcare,care_d_0.40,d_I=d_J=0.40,False,0.4,200,Providers search,48.666666666666664,100,0.48666666666666664
